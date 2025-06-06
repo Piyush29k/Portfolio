@@ -117,6 +117,80 @@ This opportunity enhanced my understanding of cybersecurity fundamentals, ethica
     <a href="your-resume.pdf" class="btn" download>Download Resume</a>
   </div>
 </section>
+<!-- Certificates Section -->
+<!-- Certificates Section -->
+<section class="certificates" id="certificates">
+  <h2 class="heading">Certificates</h2>
+  <div class="certificate-slider">
+    <div class="certificate-card">
+      <a href="PIYUSH-KUMAR-Participant-Certificate.pdf" target="_blank">
+        <div class="certificate-box">
+          <img src="c program.png" alt="C Programming Certificate">
+          <h4>C Programming</h4>
+          <p>Feb 22, 2024</p>
+        </div>
+      </a>
+    </div>
+    <div class="certificate-card">
+      <a href="PIYUSH-KUMAR-Participant-Certificate 2.pdf" target="_blank">
+        <div class="certificate-box">
+          <img src="Intoduction of computer.png" alt="Intro to Computers Certificate">
+          <h4>Introduction to Computers</h4>
+          <p>Jul 5, 2024</p>
+        </div>
+      </a>
+    </div>
+    <div class="certificate-card">
+      <a href="PIYUSH-KUMAR-Participant-Certificate 3.pdf" target="_blank">
+        <div class="certificate-box">
+          <img src="Advance c++.png" alt="Advanced C++ Certificate">
+          <h4>Advanced C++</h4>
+          <p>Dec 13, 2024</p>
+        </div>
+      </a>
+    </div>
+    <div class="certificate-card">
+      <a href="_certificate_piyushk350m-gmail-com_add9ea57-45ac-44d8-aa65-22c7901d3f71.pdf" target="_blank">
+        <div class="certificate-box">
+          <img src="Intoduction of computer.png" alt="IoT Certificate">
+          <h4>Introduction to IoT</h4>
+          <p>Feb 15, 2025</p>
+        </div>
+      </a>
+    </div>
+    <div class="certificate-card">
+      <a href="_certificate_piyushk350m-gmail-com_c37cb4a6-6870-4fca-a9ec-dd7a584e9d98.pdf" target="_blank">
+        <div class="certificate-box">
+          <img src="python.png" alt="Python Essentials Certificate">
+          <h4>Python Essentials 1</h4>
+          <p>Feb 12, 2025</p>
+        </div>
+      </a>
+    </div>
+    <div class="certificate-card">
+      <a href="PiyushKumar-Cybersecurity Es-certificate.pdf" target="_blank">
+        <div class="certificate-box">
+          <img src="cyber security.png" alt="Cybersecurity Certificate">
+          <h4>Cybersecurity Essentials</h4>
+          <p>May 27, 2024</p>
+        </div>
+      </a>
+    </div>
+    <div class="certificate-card">
+      <a href="certificate.pdf" target="_blank">
+        <div class="certificate-box">
+          <img src="A.I.png" alt="Artifilcial Intelligence Certificate">
+          <h4>Cybersecurity Essentials</h4>
+          <p>feb 22, 2025</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+<!-- End Certificates Section -->
+
+
+
 
      
 
@@ -250,6 +324,33 @@ This project helped me practice game logic, animation with JavaScript, and respo
         © Piyush Kumar | All Rights Resevred 
       </p>
     </footer>
+<style>
+  .certificate-wrapper {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .certificate-slider {
+    display: flex;
+    width: max-content;
+    animation: scroll-alternate 40s linear infinite alternate;
+  }
+
+  @keyframes scroll-alternate {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .certificate-slider:hover {
+    animation-play-state: paused;
+  }
+</style>
+
+<script>
+  // Duplicate certificate cards to enable continuous loop effect
+  const slider = document.querySelector('.certificate-slider');
+  slider.innerHTML += slider.innerHTML;
+</script>
 
   <script src="script.js"></script>
 </body>
